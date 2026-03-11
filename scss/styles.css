@@ -1,0 +1,286 @@
+h1 {
+  color: #b07a3f;
+}
+
+nav a {
+  color: #000;
+}
+nav a:hover {
+  color: #b07a3f;
+}
+
+INDEX * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(253, 250, 250);
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #b07a3f;
+  font-weight: bold;
+}
+
+.productos {
+  padding: 40px;
+}
+
+.carousel img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel {
+  max-width: 900px;
+  margin: auto;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 200px;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+}
+
+.item p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+section p {
+  max-width: 700px;
+  margin: 5px auto;
+}
+
+section {
+  text-align: center;
+  padding: 30px;
+}
+
+.imagenes-home img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+productos .productos {
+  padding: 40px;
+  text-align: center;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.item {
+  width: 220px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.item img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.item:hover img {
+  transform: scale(1.05);
+}
+
+.precio {
+  color: #b07a3f;
+  font-weight: bold;
+}
+
+.categoria {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.productos h2 {
+  text-align: center;
+  margin: 30px 0 15px;
+}
+
+.precio {
+  display: block;
+  font-weight: bold;
+  color: #b07a3f;
+  margin-top: 5px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #b07a3f;
+  font-weight: bold;
+}
+
+QUIENES SOMOS .nosotros {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.contenido-nosotros {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.contenido-nosotros img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.texto-nosotros p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+ENVIOS .envios {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.envios h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.envios h2 {
+  margin-top: 25px;
+}
+
+.envios ul {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.envios li {
+  margin-bottom: 8px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #b07a3f;
+  font-weight: bold;
+}
+
+CARRITO .carrito {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.tabla-carrito {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tabla-carrito th,
+.tabla-carrito td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.total {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.comprar {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #b07a3f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.comprar:hover {
+  background: #926431;
+}/*# sourceMappingURL=styles.css.map */

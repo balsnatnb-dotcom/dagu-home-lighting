@@ -1,4 +1,14 @@
-                                     INDEX
+nav {
+  a {
+    color: $color-texto;
+
+    &:hover {
+      color: $color-principal;
+    }
+  }
+}
+
+INDEX
 * {
   margin: 0;
   padding: 0;
@@ -186,11 +196,6 @@ nav a:hover {
   text-decoration: none;
   color:#b07a3f;
   font-weight: bold;
-}
-
-.card:hover{
-transform: scale(1.03);
-transition: 0.3s;
 }
 
                       QUIENES SOMOS
